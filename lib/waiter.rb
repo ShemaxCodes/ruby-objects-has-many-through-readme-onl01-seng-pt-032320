@@ -20,7 +20,7 @@ def meals
   
 end 
 
-def waiters 
+def best_tipper 
   
 end 
 
