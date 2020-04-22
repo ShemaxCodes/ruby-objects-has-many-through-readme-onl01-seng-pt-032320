@@ -23,7 +23,7 @@ def meals
 end 
 
 def best_tipper 
-  
+  best_tipped_meal = meals.max do |meal
 end 
 
 
