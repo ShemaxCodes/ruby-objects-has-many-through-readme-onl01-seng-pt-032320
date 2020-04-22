@@ -17,7 +17,9 @@ def new_meal(customer, total, tip=0)
 end 
 
 def meals 
-  
+  Meal.all.select do |meal|
+    meal.waiter == self 
+  end 
 end 
 
 def best_tipper 
