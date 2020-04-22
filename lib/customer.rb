@@ -18,4 +18,12 @@ class Customer
     
   end 
   
+  def meals 
+    
+  end 
+  
+  def waiters 
+    
+  end 
+  
 end
